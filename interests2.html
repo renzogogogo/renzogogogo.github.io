@@ -1,7 +1,6 @@
-<!--Renzo Go: I have learned a lot with this assignment!-->
 <html>
 <head>
-<title>My Webpage</title>
+<title>My Hobbies</title>
 <style>
 #wireframe
 {
@@ -47,13 +46,17 @@ padding: 0px;
 {
 float: right;
 width: 80%;
-background: lightGray;
+background: #0d0d0d;
 margin: auto;
 overflow: hidden;
-background-image: url("https://s-media-cache-ak0.pinimg.com/736x/c7/3b/5e/c73b5e8fdfa6db85ee7e9818f9ebd4f2.jpg");
-background-size: 100% auto;
 color: white;
 min-height: 500px;
+}
+table#interest, table#interest td, table#interest th
+{
+border: 1px solid white;
+padding: 5px;
+color: white;
 }
 #nav a
 {
@@ -95,12 +98,43 @@ font-weight: bold;
 			<li><a href="contact.html"><i class="fa fa-phone"></i> Contact Me</a></li></ul>
 		</div>
 		<div id="main" align="center">
-		This is the homepage of my website. <br>
-		If you are looking for more information, please view and click on the navigation on the left.<br>
-		<i class="fa fa-hand-o-left" style="font-size:60px;color:#cccccc;text-shadow:1px 1px 2px #000000;"></i>
+		<table id="interest"><caption>Some American cartoons I've watched</caption>
+			<thead>
+				<tr>
+					<th>Cartoons watched</th>
+					<th>Year begun watching</th>
+				</tr>
+			</thead>
+				<tr>
+					<td>The Simpsons</td>
+					<td>2003</td></tr>
+				<tr>
+					<td>Family Guy</td>
+					<td>2005</td></tr>
+				<tr>
+					<td>King of the Hill</td>
+					<td>2003</td></tr>
+				<tr>
+					<td>Bob's Burgers</td>
+					<td>2010</td></tr>
+				<tr>
+					<td>American Dad</td>
+					<td>2006</td></tr>
+				<tr>
+					<td>Futurama</td>
+					<td>2004</td></tr>
+				<tr>
+					<td>SpongeBob Squarepants</td>
+					<td>2001</td></tr>
+		</table><br>
+		<a href="https://www.google.ca/search?q=peter+griffin+the+simpsons&biw=1366&bih=657&source=lnms&sa=X&ved=0ahUKEwjH7t_e56TJAhXIcj4KHflRBdAQ_AUIBSgA&dpr=1#q=family+guy+the+simpsons">
+		<img src="http://i.imgur.com/GTYxUKE.png"
+		style="width: 50%; height:auto;">
+		</a>
 		</div>
 	</div>
-	<div id="bottom" align="center">Created on November 2015</div>
+	<div id="bottom" align="center">Created on November 2015
+	</div>
 </div>
 </body>
 <script>

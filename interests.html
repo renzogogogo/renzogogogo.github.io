@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>My Interests</title>
+<style>
+#wireframe
+{
+height: 750px;
+margin: 5px;
+}
+#wireframe #top
+{
+background: linear-gradient(-135deg,blue,darkBlue,lightBlue);
+margin: auto;
+padding: 10px;
+font-size: 40px;
+color: white;
+font-weight: bold;
+}
+#wireframe #bottom
+{
+clear: both;
+float: bottom;
+background: linear-gradient(-135deg,blue,darkBlue,lightBlue);
+margin: auto;
+color: white;
+}
+#wireframe #middle #nav
+{
+float: left;
+width: 20%;
+background: lightBlue;
+margin: auto;
+}
+#wireframe #middle #nav li
+{
+border-radius: 4px;
+border: 1px dashed gray;
+margin: 3px;
+}
+#wireframe #middle #nav ul
+{
+list-style-type: none;
+padding: 0px;
+}
+#wireframe #middle #main
+{
+float: right;
+width: 80%;
+margin: auto;
+overflow: hidden;
+color: white;
+min-height: 500px;
+background-image: url("http://designstacks.net/content_images/AdobePhotoshop/ART-D/tutorial598/3.jpg");
+background-size: 100% auto;
+}
+table#interest, table#interest td, table#interest th
+{
+border: 1px solid white;
+padding: 5px;
+color: white;
+}
+#nav a
+{
+color:#111111;
+text-decoration: none;
+font-weight: bold;
+}
+#nav a:hover
+{
+color:blue;
+text-decoration:none;
+font-weight: bold;
+}
+#nav a:visited
+{
+color:purple;
+text-decoration:none;
+font-weight: bold;
+}
+#nav a:active
+{
+color:red;
+text-decoration:none;
+font-weight: bold;
+}
+</style>
+</head>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<body>
+<div id="wireframe">
+	<div id="top" align="center">Welcome to Renzo's Website!</div>
+	<div id="middle">
+		<div id="nav" align="center">
+			<ul>
+			<li><a href="index.html"><i class="fa fa-home"></i> Homepage</a></li>
+			<li><a href="interests.html">Interests</a></li>
+			<li><a href="interests2.html">Cartoons Table</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="contact.html"><i class="fa fa-phone"></i> Contact Me</a></li></ul>
+		</div>
+		<div id="main" align="center">
+		<h1>Introduction</h1>
+		Hi, I'm Renzo, and welcome to my Interests page! I am currently a student at Sheridan College. I am currently an IT student, 
+		but I will be changing for an arts program. I especially enjoy graphic novels, drawing, cartoons, playing video games, and viewing game graphics.
+		Here is a picture of some video games that are very interesting.<br><br>
+		<table id="interest">
+		<thead style="font-weight: bold;">
+		<td>Name</td>
+		<td>Creator</td>
+		<td>Released in:</td>
+		</thead>
+		<tr>
+		<td><a href="#fallout">Fallout 4</a></td>
+		<td>Bethesda</td>
+		<td>2015</td>
+		</tr>
+		<tr>
+		<td><a href="#gtav">Grand Theft Auto 5</a></td>
+		<td>Rockstar</td>
+		<td>2013</td>
+		</tr>
+		<tr>
+		<td><a href="#bfiv">Battlefield 4</a></td>
+		<td>EA DICE</td>
+		<td>2013</td>
+		</tr>
+		</table><br><br>
+		<a href="https://www.fallout4.com/age-gate">
+		<img id="fallout" src="https://upload.wikimedia.org/wikipedia/en/7/70/Fallout_4_cover_art.jpg"
+		style="width: 20%; height:auto;"><br><br>
+		</a>
+		One of 2015's greatest video games! Experience traveling in a post-apocalyptic wasteland in the future.<br><br>
+		<a href="http://www.rockstargames.com/V/restricted_content/restricted_content_agegated/ref?redirect=http%3A%2F%2Fwww.rockstargames.com%2FV%2F&hash=efbbd75c6ccf8845ad023bf548a66936">
+		<img id="gtav" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/Grand_Theft_Auto_V.png/250px-Grand_Theft_Auto_V.png"
+		style="width: 20%; height:auto;"><br><br>
+		</a>
+		Open world, action-packed crime game developed by Rockstar.<br><br>
+		<a href="http://www.battlefield.com/battlefield-4">
+		<img id="bfiv" src="https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Battlefield_4_cover_art.jpg/250px-Battlefield_4_cover_art.jpg"
+		style="width: 20%; height:auto;"><br><br>
+		</a>
+		Huge environments, a playground of destruction, and a huge variety of weapons and vehicles at your disposal in a FPS game.<br><br>
+		</div>
+	</div>
+	<div id="bottom" align="center">Created on November 2015</div>
+</div>
+</body>
+<script>
+function goto(page)
+{
+window.location.href = page;
+}
+</script>
+</html>
